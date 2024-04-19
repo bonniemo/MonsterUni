@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <nav>
         <li>
-          <NavLink to='/Monsters'>Monsters</NavLink>
+          <NavLink to='/Monsters'>Monsters Alumni</NavLink>
         </li>
         <li>
           <NavLink to='/AddMonster'>Add Monster Student</NavLink>
