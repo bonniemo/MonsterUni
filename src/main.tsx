@@ -14,21 +14,23 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
     errorElement: <NotFound />,
-  },
-  {
-    path: "/monsters",
-    element: <Monsters/>,
     children: [
       {
-        path: "/monsters/:monstersId",
-        element: <Monster />,
+        path: "/monsters",
+        element: <Monsters/>,
+        children: [
+          {
+            path: "/monsters/:monstersId",
+            element: <Monster />,
+          },
+        ],
       },
-    ],
+      {
+        path: "/addmonster",
+        element: <AddMonster/>
+      }
+    ]
   },
-  {
-    path: "/addmonster",
-    element: <AddMonster/>
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -16,6 +16,10 @@ export type GlobalContextProp = {
     children: React.ReactNode;
 }
 
+export type MonsterInfoProp = {
+    monster: Monster;
+}
+
 export type Action = 
 | { type: "ADD"; payload: Monster }
 | { type: "REMOVE"; payload: string };

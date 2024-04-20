@@ -1,12 +1,11 @@
-
+import MonsterBox from "../Components/MonsterBox/MonsterBox";
 
 const Monsters = () => {
   return (
     <>
-        <h1>Our Monster Students</h1>
-        <p>some monsters...</p>
+      <MonsterBox />
     </>
-  )
-}
+  );
+};
 
-export default Monsters
+export default Monsters;
