@@ -4,6 +4,9 @@ const Home = () => {
   return (
     <>
       <nav>
+      <li>
+          <NavLink to='/'>Home</NavLink>
+        </li>
         <li>
           <NavLink to='/Monsters'>Monsters Alumni</NavLink>
         </li>
@@ -12,6 +15,7 @@ const Home = () => {
         </li>
       </nav>
       <Outlet />
+      <h1>MonsterAcademy</h1>
     </>
   );
 };
