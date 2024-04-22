@@ -8,7 +8,7 @@ const MonsterList = ({ monsters }: MonsterState) => {
     const handleSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
         const selectedMonster = monsters.find(monster => monster.id === e.target.value)
         selectedMonster && setMonster(selectedMonster)
-    }
+    }    
   return (
     <>
       <section className="MonsterList">
@@ -18,7 +18,7 @@ const MonsterList = ({ monsters }: MonsterState) => {
             <option value="">Name:</option>
             {monsters.map((m) => (
                 <option value={m.id} key={m.id}>
-                    {m.name}
+                    {m.last_name}
                 </option>
             ))}
         </select>
@@ -27,5 +27,4 @@ const MonsterList = ({ monsters }: MonsterState) => {
     </>
   );
 };
-
 export default MonsterList;

@@ -1,11 +1,23 @@
 export type Monster = {
     id: string;
-    name: string;
-    age: number;
-    species: string;
-    abilities: string[];
-    isEvil: boolean;
-    avatar: string;
+    first_name: string;
+    last_name: string;
+    avatar?: string,
+    description: string;
+    abilities: {
+        science: string[];
+        magic: string[];
+    };
+    origin: string;
+    num_horns?: number;
+    num_eyes: number;
+    num_arms?: number;
+    num_wings?: number;
+    num_tentacles?: number;
+    num_mouths?: number;
+    num_tails?: number;
+    num_legs?: number;
+    allergies?: string[];
 };
 
 export type MonsterState = {

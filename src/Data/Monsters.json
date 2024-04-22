@@ -1,95 +1,167 @@
 {
-    "monsters":[
-      {
-        "id": "f7d67dc2-7d54-4e41-bf12-1a42e5c0ef93",
-        "name": "Spike",
-        "age": 150,
-        "species": "Orc",
-        "abilities": ["Strength", "Agility"],
-        "isEvil": true,
-        "avatar": "spike_avatar.jpg"
+  "monsters": [
+    {
+      "id": "1",
+      "first_name": "Fuzzy",
+      "last_name": "Sparklehorn",
+      "avatar": "src/Assets/MonsterAvatars/rainbow-wings.png",
+      "description": "A fluffy monster with rainbow-colored fur and sparkling horns.",
+      "abilities": {
+        "science": ["Electrokinesis", "Inventing gadgets"],
+        "magic": ["Light manipulation", "Teleportation"]
       },
-      {
-        "id": "c3a48fb9-94a9-49d4-b902-6a04b77f097f",
-        "name": "Fang",
-        "age": 200,
-        "species": "Dragon",
-        "abilities": ["Fire Breath", "Flight"],
-        "isEvil": true,
-        "avatar": "fang_avatar.jpg"
+      "origin": "Cloudtopia",
+      "num_horns": 2,
+      "num_eyes": 4,
+      "num_arms": 2,
+      "allergies": ["Pollen", "Dust"]
+    },
+    {
+      "id": "2",
+      "first_name": "Whiskers",
+      "last_name": "Glimmerscale",
+      "avatar": "src/Assets/MonsterAvatars/rainbowemu.png",
+      "description": "A winged monster with iridescent scales and shimmering eyes.",
+      "abilities": {
+        "science": ["Aerodynamics", "Engineering"],
+        "magic": ["Illusions", "Flight spells"]
       },
-      {
-        "id": "ed50e2a3-c66d-4d7e-9d34-7210e76be2ab",
-        "name": "Goblin",
-        "age": 50,
-        "species": "Goblin",
-        "abilities": ["Stealth", "Trickery"],
-        "isEvil": true,
-        "avatar": "goblin_avatar.jpg"
+      "origin": "Skyhaven",
+      "num_wings": 2,
+      "num_eyes": 3,
+      "num_arms": 2,
+      "allergies": ["Pigs", "Shellfish"]
+    },
+    {
+      "id": "3",
+      "first_name": "Squiggle",
+      "last_name": "Tentapuff",
+      "avatar": "src/Assets/MonsterAvatars/squid.png",
+      "description": "A squid-like monster with a puffy body and tentacles covered in soft fuzz.",
+      "abilities": {
+        "science": ["Bioluminescence research", "Hydrodynamics"],
+        "magic": ["Water manipulation", "Ink spells"]
       },
-      {
-        "id": "de1c9ab8-5f9f-459d-80f5-64d6a3d1a432",
-        "name": "Troll",
-        "age": 300,
-        "species": "Troll",
-        "abilities": ["Regeneration", "Club Smash"],
-        "isEvil": true,
-        "avatar": "troll_avatar.jpg"
+      "origin": "Aqualantis",
+      "num_tentacles": 8,
+      "num_eyes": 2,
+      "num_mouths": 1,
+      "allergies": ["Fish", "Seaweed"]
+    },
+    {
+      "id": "4",
+      "first_name": "Blaze",
+      "last_name": "Emberclaw",
+      "avatar": "src/Assets/MonsterAvatars/fire-mane.png",
+      "description": "A fiery monster with flaming mane and ember-covered claws.",
+      "abilities": {
+        "science": ["Pyrotechnics", "Thermodynamics"],
+        "magic": ["Fire manipulation", "Heat spells"]
       },
-      {
-        "id": "d9e3cb0b-b0d8-45b2-a00a-1985f5f7d1cc",
-        "name": "Gnarl",
-        "age": 80,
-        "species": "Gnoll",
-        "abilities": ["Sharp Teeth", "Pack Tactics"],
-        "isEvil": true,
-        "avatar": "gnarl_avatar.jpg"
+      "origin": "Infernia",
+      "num_horns": 1,
+      "num_eyes": 2,
+      "num_arms": 2,
+      "num_tails": 1,
+      "allergies": ["Water", "Rain"]
+    },
+    {
+      "id": "5",
+      "first_name": "Misty",
+      "last_name": "Moonwing",
+      "avatar": "src/Assets/MonsterAvatars/translucent-wings.png",
+      "description": "An ethereal monster with translucent wings and a glowing aura.",
+      "abilities": {
+        "science": ["Astronomy", "Optics"],
+        "magic": ["Moonlight manipulation", "Dreamweaving"]
       },
-      {
-        "id": "eac10169-089d-47e6-b9f8-6a1a2f1fc68b",
-        "name": "Glimmer",
-        "age": 25,
-        "species": "Fairy",
-        "abilities": ["Illusions", "Flight"],
-        "isEvil": false,
-        "avatar": "glimmer_avatar.jpg"
+      "origin": "Lunaria",
+      "num_wings": 4,
+      "num_eyes": 2,
+      "num_arms": 2,
+      "allergies": ["Sunlight", "Bright lights"]
+    },
+    {
+      "id": "6",
+      "first_name": "Giggles",
+      "last_name": "Snugglepuff",
+      "avatar": "src/Assets/MonsterAvatars/cuddly-laugh.png",
+      "description": "A cuddly monster with soft fur and an infectious laugh.",
+      "abilities": {
+        "science": ["Psychology", "Sensory studies"],
+        "magic": ["Emotion manipulation", "Healing spells"]
       },
-      {
-        "id": "b3a39426-ef0d-48f2-9e02-d21f185d7ae4",
-        "name": "Grump",
-        "age": 180,
-        "species": "Ogre",
-        "abilities": ["Brute Strength", "Intimidation"],
-        "isEvil": true,
-        "avatar": "grump_avatar.jpg"
+      "origin": "Joyville",
+      "num_eyes": 2,
+      "num_arms": 2,
+      "num_tails": 1,
+      "allergies": ["Loud noises", "Crowds"]
+    },
+    {
+      "id": "7",
+      "first_name": "Spike",
+      "last_name": "Razorclaw",
+      "avatar": "src/Assets/MonsterAvatars/spikey.png",
+      "description": "A spiky monster with sharp claws and a protective shell.",
+      "abilities": {
+        "science": ["Biochemistry", "Defense mechanisms"],
+        "magic": ["Earth manipulation", "Barrier spells"]
       },
-      {
-        "id": "f5f4a175-4be3-4b39-8cb1-94a864a009e3",
-        "name": "Whisper",
-        "age": 300,
-        "species": "Ghost",
-        "abilities": ["Invisibility", "Telekinesis"],
-        "isEvil": false,
-        "avatar": "whisper_avatar.jpg"
+      "origin": "Thornridge",
+      "num_horns": 2,
+      "num_eyes": 3,
+      "num_arms": 4,
+      "num_tails": 1,
+      "allergies": ["Soft surfaces", "Cuddling"]
+    },
+    {
+      "id": "8",
+      "first_name": "Bubbles",
+      "last_name": "Glowfin",
+      "avatar": "src/Assets/MonsterAvatars/ice-totoro.png",
+      "description": "A bubbly monster with luminescent scales and a bubbly personality.",
+      "abilities": {
+        "science": ["Marine biology", "Chemical reactions"],
+        "magic": ["Bubble manipulation", "Aquatic spells"]
       },
-      {
-        "id": "eab0e2d8-85ae-4e9a-ae19-9a3961d7c80a",
-        "name": "Storm",
-        "age": 500,
-        "species": "Elemental",
-        "abilities": ["Thunder", "Lightning"],
-        "isEvil": false,
-        "avatar": "storm_avatar.jpg"
+      "origin": "Bubbleopolis",
+      "num_eyes": 2,
+      "num_arms": 2,
+      "num_tails": 1,
+      "allergies": ["Dry air", "Deserts"]
+    },
+    {
+      "id": "9",
+      "first_name": "Rumble",
+      "last_name": "Stonehide",
+      "avatar": "src/Assets/MonsterAvatars/rocky.png",
+      "description": "A sturdy monster with rocky skin and seismic powers.",
+      "abilities": {
+        "science": ["Geology", "Structural engineering"],
+        "magic": ["Earth manipulation", "Vibration spells"]
       },
-      {
-        "id": "b9081a1d-750e-4f63-b99c-ee44f4a8929e",
-        "name": "Mystique",
-        "age": 400,
-        "species": "Sorcerer",
-        "abilities": ["Magic", "Teleportation"],
-        "isEvil": true,
-        "avatar": "mystique_avatar.jpg"
-      }
-    ]
-  }
-  
+      "origin": "Quakevale",
+      "num_horns": 2,
+      "num_eyes": 2,
+      "num_arms": 2,
+      "num_tails": 1,
+      "allergies": ["Loud noises", "Crowds"]
+    },
+    {
+      "id": "10",
+      "first_name": "Wisp",
+      "last_name": "Shadowglimmer",
+      "avatar": "src/Assets/MonsterAvatars/wispy.png",
+      "description": "A mysterious monster with wispy tendrils and shadowy abilities.",
+      "abilities": {
+        "science": ["Dark matter research", "Stealth technology"],
+        "magic": ["Shadow manipulation", "Illusions"]
+      },
+      "origin": "Shadewood",
+      "num_eyes": 2,
+      "num_arms": 0,
+      "num_tentacles": 6,
+      "allergies": ["Bright lights", "Sunlight"]
+    }
+  ]
+}

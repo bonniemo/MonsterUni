@@ -7,7 +7,7 @@ type DropDownProps<T> = {
   setSelectedItem: (item: T | null) => void;
 };
 
-const DropDown = <T extends { id: string; name: string }>({
+const DropDown = <T extends { id: string; first_name: string }>({
   label,
   optionTitle,
   data,  
@@ -25,7 +25,7 @@ const DropDown = <T extends { id: string; name: string }>({
         <option value="">{optionTitle}</option>
         {data.map((d) => (
           <option value={d.id} key={d.id}>
-            {d.name}
+            {d.first_name}
           </option>
         ))}
       </select>
