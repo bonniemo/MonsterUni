@@ -4,7 +4,7 @@ export const reducer = (state: MonsterState, action: Action) => {
     switch (action.type) {
         case "ADD": 
             return {
-                monsters: [...state.monsters, action.payload],
+                ...state, monsters: [...state.monsters, action.payload]
             }
         case "REMOVE": 
             return {

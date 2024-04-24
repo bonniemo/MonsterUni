@@ -11,7 +11,7 @@ const Nav = () => {
           <NavLink to="/Monsters">Monsters Alumni</NavLink>
         </li>
         <li>
-          <NavLink to="/AddMonster">Add Monster Student</NavLink>
+          <NavLink to="/addmonster">Add Monster Student</NavLink>
         </li>
       </nav>
       <Outlet />

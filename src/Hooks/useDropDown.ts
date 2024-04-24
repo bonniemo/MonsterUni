@@ -1,8 +1,5 @@
+import { UseDropDownProps } from "../Types/Types";
 
-type UseDropDownProps<T> = {
-    data: T[];
-    setSelectedItem: (item: T | null) => void;
-}
 export const useDropDown = <T extends { id: string }>({ data, setSelectedItem }:UseDropDownProps<T>) => {    
 
     const handleSelect = (e:React.ChangeEvent<HTMLSelectElement>) => {

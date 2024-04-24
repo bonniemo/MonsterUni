@@ -1,8 +1,13 @@
+import FormInput from "../Components/MonsterBox/FormInput"
 
 
 const AddMonster = () => {
   return (
-    <div>AddMonster</div>
+    <>
+    AddMonster
+    <FormInput/>
+  </>
+
   )
 }
 

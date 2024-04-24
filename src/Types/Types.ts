@@ -4,13 +4,13 @@ export type Monster = {
   last_name: string;
   avatar?: string;
   description: string;
-  abilities: {
+  abilities?: {
     science: string[];
     magic: string[];
   };
-  origin: string;
+  origin?: string;
   num_horns?: number;
-  num_eyes: number;
+  num_eyes?: number;
   num_arms?: number;
   num_wings?: number;
   num_tentacles?: number;
@@ -32,6 +32,11 @@ export type MonsterInfoProp = {
   monster: Monster;
   setSelectedItem: (item: Monster | null) => void;
 };
+
+export type UseDropDownProps<T> = {
+  data: T[];
+  setSelectedItem: (item: T | null) => void;
+}
 
 export type Action =
   | { type: "ADD"; payload: Monster }
