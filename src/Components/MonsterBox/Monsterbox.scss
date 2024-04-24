@@ -1,0 +1,42 @@
+.monsterInfoCard {
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 2rem;    
+
+    // .txt {
+    //     padding: .5rem 1rem;
+    // } 
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: .3em;
+    }
+
+    p {
+        line-height: 1.3;
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .allergies {
+        display: flex;
+    }
+}
+
+.add {
+    background-color: hotpink;
+  }
+
+  .btn {
+    background: transparent;
+    color: aqua;
+  }

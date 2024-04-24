@@ -16,7 +16,7 @@ const MonsterDropDown = ({ monsters }: MonsterState) => {
         optionTitle={"Name:"}
         setSelectedItem={handleSelected}
       />
-      {selectedItem && <MonsterInfo monster={selectedItem} />}
+      {selectedItem && <MonsterInfo setSelectedItem={setSelectedItem} monster={selectedItem} />}
     </>
   );
 };

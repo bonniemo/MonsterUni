@@ -8,13 +8,14 @@ import Monsters from "./pages/Monsters";
 import AddMonster from "./pages/AddMonster";
 import Monster from "./pages/Monster";
 import Nav from "./pages/Nav";
+import GlobalContextProvider from "./Components/GlobalContextProvider";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Nav />,    
+    element: <Nav />,
     errorElement: <NotFound />,
-    children: [            
+    children: [
       {
         path: "/",
         element: <Home />,
@@ -39,6 +40,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <GlobalContextProvider>
+      <RouterProvider router={router} />
+    </GlobalContextProvider>
   </React.StrictMode>
 );
