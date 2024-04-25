@@ -5,17 +5,13 @@
     img {
         max-width: 10%;
         aspect-ratio: 1/1;
-        object-fit: cover;
-
-        &:focus {
-            border: 10px solid hotpink;  
-        }
+        object-fit: cover;      
         
-        // &:hover {
-        //    do something       
-        // }
+        &:hover {
+           border: 10px solid transparent;      
+        }
     }
-    .chosen {
-        border: 10px solid hotpink;
+        .chosen  {
+        border: 10px solid hotpink !important;
     }
 }
